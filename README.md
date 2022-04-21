@@ -1,3 +1,4 @@
+ # Employee Attrition Prediction
 ## This project was the partial fulfilment of the requirements for BITS AIML course.
 
 ## Problem statement (what is the problem being addressed)
@@ -28,3 +29,6 @@ and won’t be so smooth any longer.
 Hiring Management: If HR came to know about the employee of a particular project is
 willing to leave the company, then he/she can manage the number of hiring and they can
 get the valuable asset whenever they need for the efficient flow of work.
+
+## Machine Learning process flow (Consolidated Approach / Solution Architecture).
+![image](https://user-images.githubusercontent.com/24538201/164491543-b7c2b6f5-0b23-4bf9-9d55-267e316a77fe.png)
