@@ -1,0 +1,13 @@
+Model,Test Accuracy,Training Accuracy,Precision,Recall,0/1 Precision,0/1 Recall,F1-Score,Features,Trained Model
+LogisticRegression,0.78,0.78,0.77,0.9,"['0.82', '0.77']","['0.61', '0.90']",0.83,"['City', 'TotalBusinessValue', 'QuarterlyRating', 'TotalBusinessValue_change', 'Retention_years']",LogisticRegression_Acc_0.78_f1_0.83
+DecisionTreeClassifier,0.84,0.86,0.87,0.86,"['0.81', '0.87']","['0.81', '0.86']",0.87,"['City', 'TotalBusinessValue', 'QuarterlyRating', 'TotalBusinessValue_change', 'Retention_years']",DecisionTreeClassifier_Acc_0.84_f1_0.87
+KNeighborsClassifier,0.79,0.82,0.82,0.83,"['0.75', '0.82']","['0.74', '0.83']",0.82,"['City', 'TotalBusinessValue', 'QuarterlyRating', 'TotalBusinessValue_change', 'Retention_years']",KNeighborsClassifier_Acc_0.79_f1_0.82
+RandomForestClassifier,0.83,0.86,0.86,0.85,"['0.79', '0.86']","['0.81', '0.85']",0.86,"['City', 'TotalBusinessValue', 'QuarterlyRating', 'TotalBusinessValue_change', 'Retention_years']",RandomForestClassifier_Acc_0.83_f1_0.86
+GradientBoostingClassifier,0.86,0.9,0.89,0.86,"['0.81', '0.89']","['0.85', '0.86']",0.88,"['City', 'TotalBusinessValue', 'QuarterlyRating', 'TotalBusinessValue_change', 'Retention_years']",GradientBoostingClassifier_Acc_0.86_f1_0.88
+AdaBoostClassifier,0.85,0.87,0.87,0.88,"['0.82', '0.87']","['0.81', '0.88']",0.87,"['City', 'TotalBusinessValue', 'QuarterlyRating', 'TotalBusinessValue_change', 'Retention_years']",AdaBoostClassifier_Acc_0.85_f1_0.87
+CatBoostClassifier,0.81,0.82,0.85,0.83,"['0.76', '0.85']","['0.79', '0.83']",0.84,"['City', 'TotalBusinessValue', 'QuarterlyRating', 'TotalBusinessValue_change', 'Retention_years']",CatBoostClassifier_Acc_0.81_f1_0.84
+BernoulliNB,0.74,0.75,0.76,0.81,"['0.70', '0.76']","['0.63', '0.81']",0.78,"['City', 'TotalBusinessValue', 'QuarterlyRating', 'TotalBusinessValue_change', 'Retention_years']",BernoulliNB_Acc_0.74_f1_0.78
+GaussianNB,0.76,0.75,0.75,0.89,"['0.79', '0.75']","['0.57', '0.89']",0.81,"['City', 'TotalBusinessValue', 'QuarterlyRating', 'TotalBusinessValue_change', 'Retention_years']",GaussianNB_Acc_0.76_f1_0.81
+SVC,0.82,0.88,0.84,0.87,"['0.80', '0.84']","['0.76', '0.87']",0.85,"['City', 'TotalBusinessValue', 'QuarterlyRating', 'TotalBusinessValue_change', 'Retention_years']",SVC_Acc_0.82_f1_0.85
+VotingClassifier,0.85,0.87,0.87,0.87,"['0.82', '0.87']","['0.81', '0.87']",0.87,"['City', 'TotalBusinessValue', 'QuarterlyRating', 'TotalBusinessValue_change', 'Retention_years']",VotingClassifier_Acc_0.85_f1_0.87
+XGBClassifier,0.84,0.97,0.87,0.85,"['0.79', '0.87']","['0.83', '0.85']",0.86,"['City', 'TotalBusinessValue', 'QuarterlyRating', 'TotalBusinessValue_change', 'Retention_years']",XGBClassifier_Acc_0.84_f1_0.86
